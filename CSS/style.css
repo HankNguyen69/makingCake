@@ -1,0 +1,74 @@
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header{
+    border: 3px solid rgb(143, 49, 49);
+    padding-top: 5px 10px;
+    box-shadow: 3px 3px 10px rgb(238, 100, 100);
+    margin-top: 10px;
+    margin-bottom: 10px;  
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: bisque;     
+    font-family: Lucida Calligraphy;
+    font-weight: bold;
+    font-size: 20px;
+}
+header p:first-child{
+    color: red;
+}
+footer{
+    border: 3px solid rgb(143, 49, 49);
+    margin-top: 15px;
+    margin-bottom: 10px;   
+    box-shadow: 3px 3px 10px grey;   
+    border-radius: 10px;
+    text-align: center;
+    background-color: bisque;
+    font-weight: bold;
+    font-style: italic;
+}
+h1{
+    text-shadow: 3px 3px 5px brown;
+    font-family: Viner Hand ITC;    
+  
+}
+img.image1{
+    float: left;
+    margin-right: 50px;
+    margin-top: 10px;
+   
+    width: 300px;
+    height: 300px;      
+    box-shadow: 3px 3px 10px purple;   
+    border-radius: 10px;
+}
+div img{
+    float: right;
+    margin-right: 20px;
+    width: 300px;
+    height: 300px;
+    box-shadow: -3px -3px 10px purple;
+    border-radius: 10px;
+}
+ul li:first-child{
+   font-weight: bold;   
+}
+h1::first-letter{
+    font-size: 120px;
+    color: rgb(138, 8, 8);
+}
+.para1::first-letter{
+    font-size: 30px;
+    color: rgb(138, 8, 8);
+}
+.para1{
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Century';              
+}
+.para2{
+    font-weight: bold;
+}
+
